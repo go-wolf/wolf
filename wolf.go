@@ -1,13 +1,14 @@
-package leaf
+package wolf
 
 import (
-	"github.com/name5566/leaf/cluster"
-	"github.com/name5566/leaf/conf"
-	"github.com/name5566/leaf/console"
-	"github.com/name5566/leaf/log"
-	"github.com/name5566/leaf/module"
 	"os"
 	"os/signal"
+
+	"github.com/go-wolf/wolf/cluster"
+	"github.com/go-wolf/wolf/conf"
+	"github.com/go-wolf/wolf/console"
+	"github.com/go-wolf/wolf/log"
+	"github.com/go-wolf/wolf/module"
 )
 
 func Run(mods ...module.Module) {

@@ -2,13 +2,14 @@ package console
 
 import (
 	"fmt"
-	"github.com/name5566/leaf/chanrpc"
-	"github.com/name5566/leaf/conf"
-	"github.com/name5566/leaf/log"
 	"os"
 	"path"
 	"runtime/pprof"
 	"time"
+
+	"github.com/go-wolf/wolf/chanrpc"
+	"github.com/go-wolf/wolf/conf"
+	"github.com/go-wolf/wolf/log"
 )
 
 var commands = []Command{
