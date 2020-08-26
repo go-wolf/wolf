@@ -3,10 +3,9 @@ package chanrpc
 import (
 	"errors"
 	"fmt"
-	"runtime"
-
 	"github.com/go-wolf/wolf/conf"
 	"github.com/go-wolf/wolf/log"
+	"runtime"
 )
 
 // one server per goroutine (goroutine not safe)
